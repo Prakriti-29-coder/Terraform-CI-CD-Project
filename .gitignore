@@ -1,0 +1,7 @@
+# Ignore Terraform state, plan, and provider binaries
+*.tfstate
+*.tfstate.*
+*.tfplan
+*.tfplan.json
+.terraform/
+.terraform.lock.hcl
